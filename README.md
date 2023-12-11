@@ -41,6 +41,7 @@ If the last number in the sequence is not 1, it meand the conjucture is false fo
 If the last number is 1, it means the conjucture is true and will print a message. 
     print("Verification complete. The conjecture is true for the first 10,000 positive integers.")
 
+----------------------------------------
 
 # Task 4 - Coin Flipping Entropy
 Suppose you are flipping two coins, each with a probability \( p \) of giving heads. The task is to plot the entropy of the total number of heads versus \( p \).
@@ -102,7 +103,47 @@ plt.ylabel('Entropy')
 plt.grid(True)
 plt.show()
 
+---------------------------
 
+# Task 5 - Penguin Dataset Visualization with Seaborn
+
+## Overview
+
+This repository contains Python code for visualizing the penguin dataset using the Seaborn library. The penguin dataset is part of the Seaborn example datasets and includes information about different penguin species, their size measurements, and environmental factors.
+
+## Files
+
+- **penguin_visualization.py**: Python script containing code for generating Seaborn plots to visualize various aspects of the penguin dataset.
+- **penguins.csv**: CSV file containing the penguin dataset.
+
+## Dependencies
+
+Ensure you have the required dependencies installed. You can install them using the following:
+
+```bash
+pip install seaborn matplotlib pandas
+
+## Usage
+Run the penguin_visualization.py script to generate Seaborn plots for the penguin dataset. The script loads the dataset, performs data visualization, and displays the plots.
+
+python penguin_visualization.py
+
+## Plots
+# Pair Plot for Size Measurements:
+
+Visualizes relationships between bill length, bill depth, flipper length, and body mass for each penguin species.
+
+# Box Plot of Penguin Bill Length by Species:
+Illustrates the distribution of bill lengths for each penguin species.
+
+# Violin Plot of Penguin Flipper Length by Species:
+Shows the distribution of flipper lengths for each penguin species.
+
+# Scatter Plot of Penguin Bill Length vs Bill Depth:
+Reveals the relationship between bill length and bill depth for individual penguins.
+
+# Distribution Plot of Penguin Body Mass by Species:
+Displays the spread of body masses for each penguin species.
 
 ## Search source
 https://www.quantamagazine.org/why-mathematicians-still-cant-solve-the-collatz-conjecture-20200922/
