@@ -1,5 +1,5 @@
 # fundamental_data_analysis_2023
-# Ana Mello
+## Ana Mello
 
 
 # Task 1 - The Collatz conjecture
@@ -68,7 +68,7 @@ The probabilities for these outcomes are:
 
 The provided Python script calculates the entropy for different values of \( p \) and plots the entropy against \( p \). The x-axis represents the probability \( p \) of getting heads on each coin, and the y-axis represents the entropy of the total number of heads.
 
-```python
+## ```python
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -103,7 +103,8 @@ plt.ylabel('Entropy')
 plt.grid(True)
 plt.show()
 
----------------------------
+
+----------------------------------------
 
 # Task 5 - Penguin Dataset Visualization with Seaborn
 
@@ -120,7 +121,7 @@ This repository contains Python code for visualizing the penguin dataset using t
 
 Ensure you have the required dependencies installed. You can install them using the following:
 
-```bash
+##  ```bash
 pip install seaborn matplotlib pandas
 
 ## Usage
@@ -129,23 +130,24 @@ Run the penguin_visualization.py script to generate Seaborn plots for the pengui
 python penguin_visualization.py
 
 ## Plots
-# Pair Plot for Size Measurements:
+### Pair Plot for Size Measurements:
 
 Visualizes relationships between bill length, bill depth, flipper length, and body mass for each penguin species.
 
-# Box Plot of Penguin Bill Length by Species:
+### Box Plot of Penguin Bill Length by Species:
 Illustrates the distribution of bill lengths for each penguin species.
 
-# Violin Plot of Penguin Flipper Length by Species:
+### Violin Plot of Penguin Flipper Length by Species:
 Shows the distribution of flipper lengths for each penguin species.
 
-# Scatter Plot of Penguin Bill Length vs Bill Depth:
+### Scatter Plot of Penguin Bill Length vs Bill Depth:
 Reveals the relationship between bill length and bill depth for individual penguins.
 
-# Distribution Plot of Penguin Body Mass by Species:
+### Distribution Plot of Penguin Body Mass by Species:
 Displays the spread of body masses for each penguin species.
 
-## Search source
+
+# Search source
 https://www.quantamagazine.org/why-mathematicians-still-cant-solve-the-collatz-conjecture-20200922/
 
 https://www2.ifsc.usp.br/portal-ifsc/a-conjectura-de-collatz/
