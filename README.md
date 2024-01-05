@@ -3,7 +3,82 @@
 
 ***********************************************************************************************************************
 
+
 # Iris Dataset Analysis
+
+## Overview
+
+This repository contains an analysis of the well-known Iris dataset associated with Ronald A. Fisher. The dataset comprises measurements of sepal length, sepal width, petal length, and petal width for three species of iris flowers. The analysis covers variable categorization, summary statistics, and visualizations to gain insights into the dataset.
+
+## Dataset Information
+
+- **Source**: UCI Machine Learning Repository
+- **Date Accessed**: August 17, 2023
+- **URL**: [Iris Dataset](https://archive.ics.uci.edu/dataset/53/iris)
+
+## Contents
+
+- `project.ipynb`: Jupyter Notebook containing the Python code and analysis.
+- `README.md`: This file, providing an overview of the project.
+
+## Analysis Highlights
+
+1. **Variable Categorization:**
+   - Identified and categorized variables into numeric (interval scale) and categorical (nominal scale) types.
+
+2. **Summary Statistics:**
+   - Calculated mean, median, and standard deviation for each numeric variable.
+
+3. **Plots:**
+   - Utilized boxplots, violin plots, swarm plots, and a correlation heatmap to visualize and understand the dataset.
+
+4. **Correlation Analysis:**
+   - Explored relationships between numeric variables, revealing insights into the dataset's structure.
+
+## Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AnaFMello/fundamental_data_analysis_2023/blob/main/project.ipynb
+
+2. Navigate to the project directory:
+cd project
+
+
+3. Open the Jupyter Notebook:
+jupyter notebook project.ipynb
+
+4. Explore the analysis, modify, or use the code for your own purposes.
+
+
+## Dependencies:
+Python 3
+Jupyter Notebook
+Required Python packages: pandas, numpy, matplotlib, seaborn
+
+Install the dependencies using:
+pip install pandas numpy matplotlib seaborn
+ 
+# Search source
+
+ UCI Machine Learning Repository - https://archive.ics.uci.edu/ml/index.php
+
+Data Visualization Techniques - https://www.edwardtufte.com / https://www.perceptualedge.com
+
+Python Documentation - https://docs.python.org
+
+Machine Learning and Statistics Tutorials - https://www.coursera.org / https://www.khanacademy.org / https://towardsdatascience.com
+
+Research Papers on Iris Dataset Analysis - https://scholar.google.com
+
+Exploratory Data Analysis (EDA) Techniques - https://www.amazon.com / https://towardsdatascience.com / https://www.coursera.org 
+
+Data Science Blogs and Communities - https://www.kaggle.com / https://towardsdatascience.com
+
+*******************************************************************************************************************************************
+
+# Tasks
 
 ## Overview
 This Jupyter Notebook, named tasks.ipynb, encompasses five distinct tasks, each addressing different aspects of data analysis, probability distributions, and visualization. This README provides a guide on how to understand and run each task individually, along with prerequisites and considerations for seamless execution.
@@ -118,60 +193,3 @@ Seaborn Documentation - Histplot: https://seaborn.pydata.org/generated/seaborn.h
 Matplotlib Documentation: https://matplotlib.org/stable/contents.html
 
 ***********************************************************************************************************************
-
-# Iris Dataset Analysis
-
-## Overview
-
-This repository contains an analysis of the well-known Iris dataset associated with Ronald A. Fisher. The dataset comprises measurements of sepal length, sepal width, petal length, and petal width for three species of iris flowers. The analysis covers variable categorization, summary statistics, and visualizations to gain insights into the dataset.
-
-## Dataset Information
-
-- **Source**: UCI Machine Learning Repository
-- **Date Accessed**: August 17, 2023
-- **URL**: [Iris Dataset](https://archive.ics.uci.edu/dataset/53/iris)
-
-## Contents
-
-- `project.ipynb`: Jupyter Notebook containing the Python code and analysis.
-- `README.md`: This file, providing an overview of the project.
-
-## Analysis Highlights
-
-1. **Variable Categorization:**
-   - Identified and categorized variables into numeric (interval scale) and categorical (nominal scale) types.
-
-2. **Summary Statistics:**
-   - Calculated mean, median, and standard deviation for each numeric variable.
-
-3. **Plots:**
-   - Utilized boxplots, violin plots, swarm plots, and a correlation heatmap to visualize and understand the dataset.
-
-4. **Correlation Analysis:**
-   - Explored relationships between numeric variables, revealing insights into the dataset's structure.
-
-## Instructions
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/AnaFMello/fundamental_data_analysis_2023/blob/main/project.ipynb
-
-2. Navigate to the project directory:
-cd project
-
-
-3. Open the Jupyter Notebook:
-jupyter notebook project.ipynb
-
-4. Explore the analysis, modify, or use the code for your own purposes.
-
-
-## Dependencies:
-Python 3
-Jupyter Notebook
-Required Python packages: pandas, numpy, matplotlib, seaborn
-
-Install the dependencies using:
-pip install pandas numpy matplotlib seaborn
- 
