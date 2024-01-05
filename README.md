@@ -131,3 +131,61 @@ Explains the collatz conjecture
 https://www.youtube.com/watch?v=1RL1ehEdLz4
 Explains how to calculate
 
+***********************************************************************************************************************
+
+# Iris Dataset Analysis
+
+## Overview
+
+This repository contains an analysis of the well-known Iris dataset associated with Ronald A. Fisher. The dataset comprises measurements of sepal length, sepal width, petal length, and petal width for three species of iris flowers. The analysis covers variable categorization, summary statistics, and visualizations to gain insights into the dataset.
+
+## Dataset Information
+
+- **Source**: UCI Machine Learning Repository
+- **Date Accessed**: August 17, 2023
+- **URL**: [Iris Dataset](https://archive.ics.uci.edu/dataset/53/iris)
+
+## Contents
+
+- `project.ipynb`: Jupyter Notebook containing the Python code and analysis.
+- `README.md`: This file, providing an overview of the project.
+
+## Analysis Highlights
+
+1. **Variable Categorization:**
+   - Identified and categorized variables into numeric (interval scale) and categorical (nominal scale) types.
+
+2. **Summary Statistics:**
+   - Calculated mean, median, and standard deviation for each numeric variable.
+
+3. **Plots:**
+   - Utilized boxplots, violin plots, swarm plots, and a correlation heatmap to visualize and understand the dataset.
+
+4. **Correlation Analysis:**
+   - Explored relationships between numeric variables, revealing insights into the dataset's structure.
+
+## Instructions
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AnaFMello/fundamental_data_analysis_2023/blob/main/project.ipynb
+
+2. Navigate to the project directory:
+cd project
+
+
+3. Open the Jupyter Notebook:
+jupyter notebook project.ipynb
+
+4. Explore the analysis, modify, or use the code for your own purposes.
+
+
+## Dependencies:
+Python 3
+Jupyter Notebook
+Required Python packages: pandas, numpy, matplotlib, seaborn
+
+Install the dependencies using:
+pip install pandas numpy matplotlib seaborn
+ 
